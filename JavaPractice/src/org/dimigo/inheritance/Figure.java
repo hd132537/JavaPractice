@@ -2,8 +2,8 @@ package org.dimigo.inheritance;
 
 public class Figure {
 
-	public int centerX;
-	public int centerY;
+	private int centerX;
+	private int centerY;
 	
 	public Figure(int centerX, int centerY) {
 		//super();
