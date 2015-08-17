@@ -18,6 +18,9 @@ public class Circle extends Figure {
 		return (radius * radius) * Math.PI;
 	}
 	
-	
-	
+	protected void printCenter(){
+		System.out.print("원 ");
+		super.printCenter();
+	}
+
 }
