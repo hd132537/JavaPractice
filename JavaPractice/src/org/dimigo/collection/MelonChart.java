@@ -28,6 +28,10 @@ public class MelonChart {
 		list.remove(3);
 		printList(list);
 		
+		System.out.println("-- << 전체 리스트 삭제 >> --");
+        list.clear();
+        printList(list);
+		
 	}
 	
 	public static void printList(List<Music> list){
